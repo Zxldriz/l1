@@ -1,0 +1,86 @@
+# Idioma (ar_AR) - (Arabic)
+# Translator - (To be filled)
+
+prefix: "&#FF1B4C[HythiumCore] &8»&r "
+reload: "&7تمت إعادة التحميل &aبنجاح ✔"
+no_perm: "&7الصلاحيات &cغير كافية ✘&7 لتنفيذ هذا الإجراء"
+incorrect_usage: "&7استخدام &cغير صحيح ✘&7. استخدم &c&n/{command}"
+invalid_subcmd: "&7هذا الأمر الفرعي &cغير موجود ✘&7. استخدم &c&n/hythiumcore help"
+system_migration:
+  already_success: "&cتمت الترحيل &7بالفعل"
+  no_available: "&cلا يمكن الترحيل ✘&7. قاعدة البيانات &cمغلقة"
+  migration_title:
+    search:
+      title: "&e🔍 البحث عن &7بيانات الترحيل"
+      sub_title: "&7يرجى الانتظار..."
+    completed:
+      title: "&a✔ اكتمل الترحيل"
+      sub_title: "&7(&a{reg} &7سجل(سجلات))"
+hythiumcore_menu:
+  main:
+    title: "&8قائمة HythiumCore"
+    buttons:
+      button_commands: "&aالأوامر الرئيسية"
+      button_commands_lore:
+        - ""
+        - ""
+      button_close: ""
+      button_close_lore:
+        - ""
+        - ""
+      button_info: ""
+      button_info_lore:
+        - ""
+        - ""
+  commands:
+    title: "&8الأوامر"
+    buttons:
+      button_reload: "&eإعادة تحميل الإضافة"
+      button_reload_lore:
+        - ""
+        - ""
+      button_info: "&eمعلومات الإضافة"
+      button_info_lore:
+        - ""
+        - ""
+      button_migrate: "&eترحيل البيانات"
+      button_migrate_lore:
+        - ""
+        - ""
+      button_back: "&cرجوع"
+      button_back_lore:
+        - ""
+        - ""
+
+# LANGUAGE
+lang_formatted:
+  spanish: "إسباني"
+  english: "إنجليزي"
+  portuguese: "برتغالي"
+  arabic: "عربي"
+  japanese: "ياباني"
+  korean: "كوري"
+  chinese: "صيني مبسط"
+
+# COMMANDS
+lang_cmd:
+  success: "&7تم تغيير اللغة &aبنجاح ✔ &7إلى: &8&o{lang}"
+  invalid_lang: "&7لغة &cغير صالحة ✘"
+  incorrect_usage: "&7استخدام &cغير صحيح ✘&7. استخدم &c&n/{command}"
+  already_selected: "&7لقد &cاخترت &7هذه اللغة بالفعل!"
+  no_langs: "&cلا توجد ✘&7 لغات متاحة"
+  menu:
+    title: "&8اللغات"
+    buttons:
+      button_close: "&c✘ &8| &cإغلاق &8| &7[انقر]"
+      button_prev-page: "&a« &8| &7الصفحة السابقة &8| &7[انقر]"
+      button_next-page: "&a» &8| &7الصفحة التالية &8| &7[انقر]"
+    lang_selected: "&8» &a{lang} ({lang-formatted})"
+    lang_no_selected: "&8» &7{lang} ({lang-formatted})"
+    lang_status_selected: "&aاللغة الحالية"
+    lang_status_no_selected: "&8غير محدد"
+    lang_lore:
+      - ""
+      - "  &8&l|&r {lang-status}"
+      - ""
+      - " &8&l| &7انقر لاختيار اللغة"

@@ -1,0 +1,25 @@
+settings:
+  enabled: true
+  module_name: '''Join And Exit'''
+  config:
+    first_join:
+      enabled: true
+      message: '&7[&a+&7] &f{player} &7Entro por primera vez a ServerName'
+      title_config:
+        title: '&eBienvenido de por primera vez'
+        sub_title: '&7a Server Name'
+        fadeIn: 20
+        stay: 20
+        fadeOut: 20
+    join:
+      enabled: true
+      message: '&7[&a+&7] &f{player} &7Entro a ServerName'
+      title_config:
+        title: '&eBienvenido de nuevo'
+        sub_title: '&7a Server Name'
+        fadeIn: 20
+        stay: 20
+        fadeOut: 20
+    exit:
+      enabled: true
+      message: '&7[&c-&7] &f{player} &7Salio de ServerName'

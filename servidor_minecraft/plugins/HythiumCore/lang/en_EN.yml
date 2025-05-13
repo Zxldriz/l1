@@ -1,0 +1,86 @@
+# Idioma (en_EN) - (English)
+# Translator - (To be filled)
+
+prefix: "&#FF1B4C[HythiumCore] &8»&r "
+reload: "&7Reload completed &asuccessfully ✔"
+no_perm: "&7Insufficient &cpermissions ✘&7 to perform this action"
+incorrect_usage: "&7Incorrect &cusage ✘&7. Use &c&n/{command}"
+invalid_subcmd: "&7This sub-command &cdoes not exist ✘&7. Use &c&n/hythiumcore help"
+system_migration:
+  already_success: "&cMigration already &7completed"
+  no_available: "&cMigration cannot be performed ✘&7. The database is &cclosed"
+  migration_title:
+    search:
+      title: "&e🔍 Searching for &7migration data"
+      sub_title: "&7Please wait..."
+    completed:
+      title: "&a✔ Migration completed"
+      sub_title: "&7(&a{reg} &7record(s))"
+hythiumcore_menu:
+  main:
+    title: "&8HythiumCore Menu"
+    buttons:
+      button_commands: "&aMain Commands"
+      button_commands_lore:
+        - ""
+        - ""
+      button_close: ""
+      button_close_lore:
+        - ""
+        - ""
+      button_info: ""
+      button_info_lore:
+        - ""
+        - ""
+  commands:
+    title: "&8Commands"
+    buttons:
+      button_reload: "&eReload Plugin"
+      button_reload_lore:
+        - ""
+        - ""
+      button_info: "&ePlugin Info"
+      button_info_lore:
+        - ""
+        - ""
+      button_migrate: "&eMigrate Data"
+      button_migrate_lore:
+        - ""
+        - ""
+      button_back: "&cBack"
+      button_back_lore:
+        - ""
+        - ""
+
+# LANGUAGE
+lang_formatted:
+  spanish: "Spanish"
+  english: "English"
+  portuguese: "Portuguese"
+  arabic: "Arabic"
+  japanese: "Japanese"
+  korean: "Korean"
+  chinese: "Simplified Chinese"
+
+# COMMANDS
+lang_cmd:
+  success: "&7Language changed &asuccessfully ✔ &7to: &8&o{lang}"
+  invalid_lang: "&7Invalid &clanguage ✘"
+  incorrect_usage: "&7Incorrect &cusage ✘&7. Use &c&n/{command}"
+  already_selected: "&7You &calready have &7that language selected!"
+  no_langs: "&cNo ✘&7 languages available"
+  menu:
+    title: "&8Languages"
+    buttons:
+      button_close: "&c✘ &8| &cClose &8| &7[Click]"
+      button_prev-page: "&a« &8| &7Previous Page &8| &7[Click]"
+      button_next-page: "&a» &8| &7Next Page &8| &7[Click]"
+    lang_selected: "&8» &a{lang} ({lang-formatted})"
+    lang_no_selected: "&8» &7{lang} ({lang-formatted})"
+    lang_status_selected: "&aCurrent language"
+    lang_status_no_selected: "&8Not selected"
+    lang_lore:
+      - ""
+      - "  &8&l|&r {lang-status}"
+      - ""
+      - " &8&l| &7Click to select language"

@@ -1,0 +1,86 @@
+# Idioma (es_ES) - (Español)
+# Traductor - Zxldriz
+
+prefix: "&#FF1B4C[HythiumCore] &8»&r "
+reload: "&7Recarga realizada &aexitosamente ✔"
+no_perm: "&7Permisos &cinsuficientes ✘&7, para realizar esta accion"
+incorrect_usage: "&7Uso &cincorrecto ✘&7. Usa &c&n/{command}"
+invalid_subcmd: "&7Este sub-comando &cno existe ✘&7. Usa &c&n/hythiumcore help"
+system_migration:
+  already_success: "&cYa se realizo&7, la migración de datos"
+  no_available: "&cNo se pudo realizar ✘&7, la migración. La base de datos está &ccerrada"
+  migration_title:
+    search:
+      title: "&e🔍 Buscando &7datos de migración"
+      sub_title: "&7Por favor espere..."
+    completed:
+      title: "&a✔ Migración completada"
+      sub_title: "&7(&a{reg} &7registro(s))"
+hythiumcore_menu:
+  main:
+    title: "&8Menú de HythiumCore"
+    buttons:
+      button_commands: "&aComandos Principales"
+      button_commands_lore:
+        - ""
+        - ""
+      button_close: ""
+      button_close_lore:
+        - ""
+        - ""
+      button_info: ""
+      button_info_lore:
+        - ""
+        - ""
+  commands:
+    title: "&8Comandos"
+    buttons:
+      button_reload: "&eRecargar el Plugin"
+      button_reload_lore:
+        - ""
+        - ""
+      button_info: "&eInformación del Plugin"
+      button_info_lore:
+        - ""
+        - ""
+      button_migrate: "&eMigrar Datos"
+      button_migrate_lore:
+        - ""
+        - ""
+      button_back: "&cVolver"
+      button_back_lore:
+        - ""
+        - ""
+
+# LANGUAGE
+lang_formatted:
+  spanish: "Español"
+  english: "Ingles"
+  portuguese: "Portuguese"
+  arabic: "Árabe"
+  japanese: "Japones"
+  korean: "Coreano"
+  chinese: "Chino Simplificado"
+
+# COMMANDS
+lang_cmd:
+  success: "&7Idioma cambiado &aexitosamente ✔ &7a: &8&o{lang}"
+  invalid_lang: "&7Idioma &cinvalido ✘"
+  incorrect_usage: "&7Uso &cincorrecto ✘&7. Usa &c&n/{command}"
+  already_selected: "&7¡&cYa tienes &7ese idioma seleccionado!"
+  no_langs: "&cNo hay ✘&7, idiomas disponibles"
+  menu:
+    title: "&8Idiomas"
+    buttons:
+      button_close: "&c✘ &8| &cCerrar &8| &7[Clic]"
+      button_prev-page: "&a« &8| &7Página Anterior &8| &7[Clic]"
+      button_next-page: "&a» &8| &7Siguiente Pagina &8| &7[Clic]"
+    lang_selected: "&8» &a{lang} ({lang-formatted})"
+    lang_no_selected: "&8» &7{lang} ({lang-formatted})"
+    lang_status_selected: "&aIdioma actual"
+    lang_status_no_selected: "&8No seleccionado"
+    lang_lore:
+      - ""
+      - "  &8&l|&r {lang-status}"
+      - ""
+      - " &8&l| &7Haz clic para seleccionar idioma"

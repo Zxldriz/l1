@@ -1,0 +1,75 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                    Introduction                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# ----------------------------------------------------------------------- #
+# HythiumCore is a plugin that seeks to leave behind traditional
+# plugins and focus on what is modern, optimal, and easy to use.
+#
+# HythiumCore wants its server/network
+# administrators to provide their users with a unique and modern experience.
+# HythiumCore, unlike other plugins, offers a module system that can be completely disabled.
+# It also uses a multi-version system from 1.17x to 1.21x.
+# More information can be found on our wiki: https://wiki.hythium.net/
+# ----------------------------------------------------------------------- #
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   Modern Features                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# This option will change the way commands are currently used on servers.
+# Use "classic" if you prefer the classic way of using a command.
+# For example: /hythiumcore reload. However,
+# if you change it to "ui," the traditional way of using a command will
+# no longer be used and will instead be used through menus.
+# For example: /hythiumcore, when executed, will open the menu for
+# that command, making it faster and more accessible when executing an action.
+command_usage_mode: ui
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    System Storage                    | #
+# +------------------------------------------------------+ #
+# |                   MySQL/SQL or YML                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# HythiumCore offers a YML based storage system, storing
+# player data in a file created in the "data" folder.
+# However, if you prefer to use the MySQL or SQL storage system,
+# you can change it to your liking.
+
+# Available options:
+# yml = Use the storage system via YML
+# database = Use the storage system via a database
+system_storage: yml
+
+# Path to configure the storage system per database
+# If database.enabled is "true", the database will be enabled.
+# If it is "false", it will be disabled.
+#
+# If database.type is "mysql", the MySQL database will be used.
+# If it is "sql", the SQL database will be used.
+database:
+  enabled: false # true or false
+  type: mysql # mysql or sql
+
+# SQL configuration
+#sql:
+ # hostname: localhost
+ # database: hythiumcore_db
+ # port: 3306
+ # username: root
+ # password: pass
+
+# MySQL configuration
+mysql:
+  hostname: localhost
+  database: hythiumcore_db
+  port: 3306
+  username: root
+  password: pass

@@ -1,0 +1,86 @@
+# Idioma (ko_KR) - (Korean)
+# Translator - (To be filled)
+
+prefix: "&#FF1B4C[HythiumCore] &8»&r "
+reload: "&7리로드가 &a성공적으로 완료되었습니다 ✔"
+no_perm: "&7권한이 &c부족합니다 ✘&7, 이 작업을 수행할 수 없습니다"
+incorrect_usage: "&7사용법이 &c잘못되었습니다 ✘&7. &c&n/{command} 를 사용하세요"
+invalid_subcmd: "&7이 서브 명령은 &c존재하지 않습니다 ✘&7. &c&n/hythiumcore help 를 사용하세요"
+system_migration:
+  already_success: "&c이미 &7마이그레이션이 완료되었습니다"
+  no_available: "&c마이그레이션을 수행할 수 없습니다 ✘&7. 데이터베이스가 &c닫혀 있습니다"
+  migration_title:
+    search:
+      title: "&e🔍 마이그레이션 데이터를 &7검색 중"
+      sub_title: "&7잠시만 기다려 주세요..."
+    completed:
+      title: "&a✔ 마이그레이션이 완료되었습니다"
+      sub_title: "&7(&a{reg} &7레코드)"
+hythiumcore_menu:
+  main:
+    title: "&8HythiumCore 메뉴"
+    buttons:
+      button_commands: "&a주요 명령어"
+      button_commands_lore:
+        - ""
+        - ""
+      button_close: ""
+      button_close_lore:
+        - ""
+        - ""
+      button_info: ""
+      button_info_lore:
+        - ""
+        - ""
+  commands:
+    title: "&8명령어"
+    buttons:
+      button_reload: "&e플러그인 리로드"
+      button_reload_lore:
+        - ""
+        - ""
+      button_info: "&e플러그인 정보"
+      button_info_lore:
+        - ""
+        - ""
+      button_migrate: "&e데이터 마이그레이션"
+      button_migrate_lore:
+        - ""
+        - ""
+      button_back: "&c뒤로"
+      button_back_lore:
+        - ""
+        - ""
+
+# LANGUAGE
+lang_formatted:
+  spanish: "스페인어"
+  english: "영어"
+  portuguese: "포르투갈어"
+  arabic: "아랍어"
+  japanese: "일본어"
+  korean: "한국어"
+  chinese: "간체 중국어"
+
+# COMMANDS
+lang_cmd:
+  success: "&7언어가 &a성공적으로 변경되었습니다 ✔ &7: &8&o{lang}"
+  invalid_lang: "&7유효하지 않은 &c언어 ✘"
+  incorrect_usage: "&7사용법이 &c잘못되었습니다 ✘&7. &c&n/{command} 를 사용하세요"
+  already_selected: "&7이미 &c그 언어를 선택했습니다!"
+  no_langs: "&c사용 가능한 ✘&7 언어가 없습니다"
+  menu:
+    title: "&8언어"
+    buttons:
+      button_close: "&c✘ &8| &c닫기 &8| &7[클릭]"
+      button_prev-page: "&a« &8| &7이전 페이지 &8| &7[클릭]"
+      button_next-page: "&a» &8| &7다음 페이지 &8| &7[클릭]"
+    lang_selected: "&8» &a{lang} ({lang-formatted})"
+    lang_no_selected: "&8» &7{lang} ({lang-formatted})"
+    lang_status_selected: "&a현재 언어"
+    lang_status_no_selected: "&8선택되지 않음"
+    lang_lore:
+      - ""
+      - "  &8&l|&r {lang-status}"
+      - ""
+      - " &8&l| &7클릭하여 언어 선택"

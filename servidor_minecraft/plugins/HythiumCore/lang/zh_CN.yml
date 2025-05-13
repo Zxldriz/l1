@@ -1,0 +1,86 @@
+# Idioma (zh_CN) - (Simplified Chinese)
+# Translator - (To be filled)
+
+prefix: "&#FF1B4C[HythiumCore] &8»&r "
+reload: "&7重新加载 &a成功完成 ✔"
+no_perm: "&7权限 &c不足 ✘&7，无法执行此操作"
+incorrect_usage: "&7使用 &c错误 ✘&7。请使用 &c&n/{command}"
+invalid_subcmd: "&7此子命令 &c不存在 ✘&7。请使用 &c&n/hythiumcore help"
+system_migration:
+  already_success: "&c已 &7完成迁移"
+  no_available: "&c无法执行迁移 ✘&7。数据库已 &c关闭"
+  migration_title:
+    search:
+      title: "&e🔍 搜索 &7迁移数据"
+      sub_title: "&7请稍候..."
+    completed:
+      title: "&a✔ 迁移完成"
+      sub_title: "&7(&a{reg} &7条记录)"
+hythiumcore_menu:
+  main:
+    title: "&8HythiumCore 菜单"
+    buttons:
+      button_commands: "&a主要命令"
+      button_commands_lore:
+        - ""
+        - ""
+      button_close: ""
+      button_close_lore:
+        - ""
+        - ""
+      button_info: ""
+      button_info_lore:
+        - ""
+        - ""
+  commands:
+    title: "&8命令"
+    buttons:
+      button_reload: "&e重新加载插件"
+      button_reload_lore:
+        - ""
+        - ""
+      button_info: "&e插件信息"
+      button_info_lore:
+        - ""
+        - ""
+      button_migrate: "&e迁移数据"
+      button_migrate_lore:
+        - ""
+        - ""
+      button_back: "&c返回"
+      button_back_lore:
+        - ""
+        - ""
+
+# LANGUAGE
+lang_formatted:
+  spanish: "西班牙语"
+  english: "英语"
+  portuguese: "葡萄牙语"
+  arabic: "阿拉伯语"
+  japanese: "日语"
+  korean: "韩语"
+  chinese: "简体中文"
+
+# COMMANDS
+lang_cmd:
+  success: "&7语言更改 &a成功 ✔ &7至： &8&o{lang}"
+  invalid_lang: "&7无效 &c语言 ✘"
+  incorrect_usage: "&7使用 &c错误 ✘&7。请使用 &c&n/{command}"
+  already_selected: "&7您 &c已选择 &7该语言！"
+  no_langs: "&c没有 ✘&7 可用的语言"
+  menu:
+    title: "&8语言"
+    buttons:
+      button_close: "&c✘ &8| &c关闭 &8| &7[点击]"
+      button_prev-page: "&a« &8| &7上一页 &8| &7[点击]"
+      button_next-page: "&a» &8| &7下一页 &8| &7[点击]"
+    lang_selected: "&8» &a{lang} ({lang-formatted})"
+    lang_no_selected: "&8» &7{lang} ({lang-formatted})"
+    lang_status_selected: "&a当前语言"
+    lang_status_no_selected: "&8未选择"
+    lang_lore:
+      - ""
+      - "  &8&l|&r {lang-status}"
+      - ""
+      - " &8&l| &7点击选择语言"

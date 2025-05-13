@@ -1,0 +1,86 @@
+# Idioma (ja_JP) - (Japanese)
+# Translator - (To be filled)
+
+prefix: "&#FF1B4C[HythiumCore] &8»&r "
+reload: "&7リロードが &a正常に完了しました ✔"
+no_perm: "&7権限が &c不足しています ✘&7、この操作を実行できません"
+incorrect_usage: "&7使用方法が &c間違っています ✘&7。 &c&n/{command} を使用してください"
+invalid_subcmd: "&7このサブコマンドは &c存在しません ✘&7。 &c&n/hythiumcore help を使用してください"
+system_migration:
+  already_success: "&cすでに &7マイグレーションが完了しています"
+  no_available: "&cマイグレーションを実行できません ✘&7。データベースが &c閉じています"
+  migration_title:
+    search:
+      title: "&e🔍 マイグレーションデータを &7検索中"
+      sub_title: "&7お待ちください..."
+    completed:
+      title: "&a✔ マイグレーションが完了しました"
+      sub_title: "&7(&a{reg} &7レコード)"
+hythiumcore_menu:
+  main:
+    title: "&8HythiumCore メニュー"
+    buttons:
+      button_commands: "&a主要コマンド"
+      button_commands_lore:
+        - ""
+        - ""
+      button_close: ""
+      button_close_lore:
+        - ""
+        - ""
+      button_info: ""
+      button_info_lore:
+        - ""
+        - ""
+  commands:
+    title: "&8コマンド"
+    buttons:
+      button_reload: "&eプラグインをリロード"
+      button_reload_lore:
+        - ""
+        - ""
+      button_info: "&eプラグイン情報"
+      button_info_lore:
+        - ""
+        - ""
+      button_migrate: "&eデータをマイグレート"
+      button_migrate_lore:
+        - ""
+        - ""
+      button_back: "&c戻る"
+      button_back_lore:
+        - ""
+        - ""
+
+# LANGUAGE
+lang_formatted:
+  spanish: "スペイン語"
+  english: "英語"
+  portuguese: "ポルトガル語"
+  arabic: "アラビア語"
+  japanese: "日本語"
+  korean: "韓国語"
+  chinese: "簡体字中国語"
+
+# COMMANDS
+lang_cmd:
+  success: "&7言語が &a正常に変更されました ✔ &7： &8&o{lang}"
+  invalid_lang: "&7無効な &c言語 ✘"
+  incorrect_usage: "&7使用方法が &c間違っています ✘&7。 &c&n/{command} を使用してください"
+  already_selected: "&7その言語は &cすでに選択されています！"
+  no_langs: "&c利用可能な ✘&7 言語がありません"
+  menu:
+    title: "&8言語"
+    buttons:
+      button_close: "&c✘ &8| &c閉じる &8| &7[クリック]"
+      button_prev-page: "&a« &8| &7前のページ &8| &7[クリック]"
+      button_next-page: "&a» &8| &7次のページ &8| &7[クリック]"
+    lang_selected: "&8» &a{lang} ({lang-formatted})"
+    lang_no_selected: "&8» &7{lang} ({lang-formatted})"
+    lang_status_selected: "&a現在の言語"
+    lang_status_no_selected: "&8未選択"
+    lang_lore:
+      - ""
+      - "  &8&l|&r {lang-status}"
+      - ""
+      - " &8&l| &7クリックして言語を選択"
